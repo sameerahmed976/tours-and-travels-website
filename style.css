@@ -370,6 +370,12 @@ p {
 .services__card {
   background-color: white;
   box-shadow: var(--box-shadow-1);
+  cursor: pointer;
+}
+
+.services__card:hover {
+  transform: scale(1.01);
+  box-shadow: var(--box-shadow-2);
 }
 
 .services__icon {
@@ -424,6 +430,12 @@ p {
   position: relative;
   box-shadow: var(--box-shadow-1);
   padding: 0.4rem;
+  cursor: pointer;
+}
+
+.tours__card:hover {
+  transform: scale(1.01);
+  box-shadow: var(--box-shadow-2);
 }
 
 .tours__card__image {
@@ -581,6 +593,12 @@ p {
 .gallery__image {
   position: relative;
   transition: var(--transition-8);
+  cursor: pointer;
+}
+
+.gallery__image:hover {
+  transform: scale(1.01);
+  box-shadow: var(--box-shadow-2);
 }
 
 .image__gallery__container {
@@ -588,6 +606,10 @@ p {
   object-fit: cover;
   cursor: pointer;
   transition: var(--transition-8);
+}
+
+.image__gallery__container:hover {
+  transform: scale(1.01);
 }
 
 .gallery__icon {
@@ -664,8 +686,8 @@ p {
   color: black;
   display: block;
   position: fixed;
-  top: 90%;
-  left: 80%;
+  top: 90vh;
+  left: 90vw;
   transform: translate(-50%, -50%);
   transition: var(--transition-8);
   border: 1px solid white;
