@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tours and Travels</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar__small">
+          <h1 class="logo">
+            Tours <span class="logo__span">and Travels</span>
+          </h1>
+          <div class="menu__hamburger">
+            <span class="bar bar--1"></span><span class="bar bar--2"></span
+            ><span class="bar bar--3"></span>
+          </div>
+        </div>
+
+        <ul class="nav__links navbar__links">
+          <li><a href="#href" class="link">Home</a></li>
+          <li><a href="#about" class="link">About</a></li>
+          <li><a href="#services" class="link">Services</a></li>
+          <li><a href="#tours" class="link">Featured</a></li>
+          <li><a href="#gallery" class="link">Gallery</a></li>
+        </ul>
+
+        <ul class="social__links">
+          <li>
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+          </li>
+        </ul>
+
+        <div class="overlay">
+          <div class="overlay__content">
+            <a href="javascript:void(0)" class="close">&times;</a>
+
+            <ul class="nav__links">
+              <li><a href="#home" class="link">Home</a></li>
+              <li><a href="#about" class="link">About</a></li>
+              <li><a href="#services" class="link">Services</a></li>
+              <li><a href="#tours" class="link">Featured</a></li>
+              <li><a href="#gallery" class="link">Gallery</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- ! hero section -->
+      <section class="hero" id="home">
+        <article class="hero__content">
+          <h2 class="hero__heading">Continue Exploring</h2>
+          <p class="hero__paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+            debitis expedita officia!
+          </p>
+          <button class="btn btn--explore">Explore</button>
+        </article>
+      </section>
+      <!-- ! end of hero section -->
+      <!-- ! about section -->
+      <section class="about" id="about">
+        <h2 class="about__title">About <span class="about__span">Us</span></h2>
+        <section class="about__container">
+          <img src="hero.jpg" alt="about image" class="about__image" />
+          <article class="about__content">
+            <h2 class="about__content__title">Explore the Difference</h2>
+            <p class="about__content__paragraph--1">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+              totam quasi distinctio!
+            </p>
+            <p class="about__content__paragraph--2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+              totam quasi distinctio!
+            </p>
+            <button class="btn btn--read">Read More</button>
+          </article>
+        </section>
+      </section>
+
+      <!-- ! end of about section -->
+
+      <!-- ! services section -->
+
+      <section class="services" id="services">
+        <h2 class="services__title">our Services</h2>
+        <section class="services__container">
+          <article class="services__card">
+            <div class="services__icon">
+              <i class="fas fa-wallet fa-fw"></i>
+            </div>
+            <h2 class="services__card__title">Saving Money</h2>
+            <p class="services__card__paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam,
+              suscipit accusantium? Harum.
+            </p>
+          </article>
+          <article class="services__card">
+            <div class="services__icon">
+              <i class="fas fa-tree fa-fw"></i>
+            </div>
+            <h2 class="services__card__title">Endless Hiking</h2>
+            <p class="services__card__paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam,
+              suscipit accusantium? Harum.
+            </p>
+          </article>
+          <article class="services__card">
+            <div class="services__icon">
+              <i class="fas fa-socks fa-fw"></i>
+            </div>
+            <h2 class="services__card__title">Amazing Comfort</h2>
+            <p class="services__card__paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam,
+              suscipit accusantium? Harum.
+            </p>
+          </article>
+        </section>
+      </section>
+
+      <!-- !end of  services section -->
+
+      <!-- ? tours section -->
+      <section class="tours" id="tours">
+        <h2 class="tours__title">Featured Tours</h2>
+        <section class="tours__container">
+          <article class="tours__card">
+            <img src="hero.jpg" alt="" class="tours__card__image" />
+            <h2 class="tours__card__date">August 26th ,2021</h2>
+
+            <div class="tours__card__heading__section">
+              <h3 class="tours__card__heading">Tibet Adventure</h3>
+              <p class="tours__card__days">6 days</p>
+            </div>
+            <p class="tours__card__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at
+              maxime doloremque!
+            </p>
+            <div class="tours__card__footer__section">
+              <p class="tours__card__footer__country">
+                <i class="fas fa-tree fa-fw"></i> China
+              </p>
+              <p class="tours__card__footer__price">From ₹ 90000</p>
+            </div>
+          </article>
+          <article class="tours__card">
+            <img src="hero.jpg" alt="" class="tours__card__image" />
+            <h2 class="tours__card__date">August 26th ,2021</h2>
+
+            <div class="tours__card__heading__section">
+              <h3 class="tours__card__heading">Tibet Adventure</h3>
+              <p class="tours__card__days">6 days</p>
+            </div>
+            <p class="tours__card__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at
+              maxime doloremque!
+            </p>
+            <div class="tours__card__footer__section">
+              <p class="tours__card__footer__country">
+                <i class="fas fa-tree fa-fw"></i> China
+              </p>
+              <p class="tours__card__footer__price">From ₹ 90000</p>
+            </div>
+          </article>
+          <article class="tours__card">
+            <img src="hero.jpg" alt="" class="tours__card__image" />
+            <h2 class="tours__card__date">August 26th ,2021</h2>
+
+            <div class="tours__card__heading__section">
+              <h3 class="tours__card__heading">Tibet Adventure</h3>
+              <p class="tours__card__days">6 days</p>
+            </div>
+            <p class="tours__card__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at
+              maxime doloremque!
+            </p>
+            <div class="tours__card__footer__section">
+              <p class="tours__card__footer__country">
+                <i class="fas fa-tree fa-fw"></i> China
+              </p>
+              <p class="tours__card__footer__price">From ₹ 90000</p>
+            </div>
+          </article>
+          <article class="tours__card">
+            <img src="hero.jpg" alt="" class="tours__card__image" />
+            <h2 class="tours__card__date">August 26th ,2021</h2>
+
+            <div class="tours__card__heading__section">
+              <h3 class="tours__card__heading">Tibet Adventure</h3>
+              <p class="tours__card__days">6 days</p>
+            </div>
+            <p class="tours__card__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at
+              maxime doloremque!
+            </p>
+            <div class="tours__card__footer__section">
+              <p class="tours__card__footer__country">
+                <i class="fas fa-tree fa-fw"></i> China
+              </p>
+              <p class="tours__card__footer__price">From ₹ 90000</p>
+            </div>
+          </article>
+        </section>
+        <button class="btn btn--tours">All Tours</button>
+      </section>
+      <!-- !end of  tours section -->
+      <!-- !contact Section -->
+      <section class="contact">
+        <section class="contact__container">
+          <article class="contact__content">
+            <h2 class="contact__text">Want Latest Tour Info And Updates?</h2>
+            <p class="contact__paragraph">
+              Sign up for newsletter and stay up to date
+            </p>
+          </article>
+
+          <form class="form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form--email"
+              placeholder="your email"
+            />
+            <button type="submit" class="btn btn--submit">submit</button>
+          </form>
+        </section>
+      </section>
+      <!-- !end of contact Section -->
+
+      <!-- ! gallery section -->
+      <section class="gallery" id="gallery">
+        <section class="gallery__container">
+          <article class="gallery__image">
+            <img
+              src="hero.jpg"
+              alt="gallery image"
+              class="image__gallery__container"
+            />
+            <a href="#" class="gallery__icon"><i class="fas fa-search"></i></a>
+          </article>
+          <article class="gallery__image">
+            <img
+              src="hero.jpg"
+              alt="gallery image"
+              class="image__gallery__container"
+            />
+            <a href="#" class="gallery__icon"><i class="fas fa-search"></i></a>
+          </article>
+          <article class="gallery__image">
+            <img
+              src="hero.jpg"
+              alt="gallery image"
+              class="image__gallery__container"
+            />
+            <a href="#" class="gallery__icon"><i class="fas fa-search"></i></a>
+          </article>
+          <article class="gallery__image">
+            <img
+              src="hero.jpg"
+              alt="gallery image"
+              class="image__gallery__container"
+            />
+            <a href="#" class="gallery__icon"><i class="fas fa-search"></i></a>
+          </article>
+          <article class="gallery__image">
+            <img
+              src="hero.jpg"
+              alt="gallery image"
+              class="image__gallery__container"
+            />
+            <a href="#" class="gallery__icon"><i class="fas fa-search"></i></a>
+          </article>
+          <article class="gallery__image">
+            <img
+              src="hero.jpg"
+              alt="gallery image"
+              class="image__gallery__container"
+            />
+            <a href="#" class="gallery__icon"><i class="fas fa-search"></i></a>
+          </article>
+          <article class="gallery__image">
+            <img
+              src="hero.jpg"
+              alt="gallery image"
+              class="image__gallery__container"
+            />
+            <a href="#" class="gallery__icon"><i class="fas fa-search"></i></a>
+          </article>
+          <article class="gallery__image">
+            <img
+              src="hero.jpg"
+              alt="gallery image"
+              class="image__gallery__container"
+            />
+            <a href="#" class="gallery__icon"><i class="fas fa-search"></i></a>
+          </article>
+          <article class="gallery__image">
+            <img
+              src="hero.jpg"
+              alt="gallery image"
+              class="image__gallery__container"
+            />
+            <a href="#" class="gallery__icon"><i class="fas fa-search"></i></a>
+          </article>
+        </section>
+      </section>
+      <!-- ! end of gallery section -->
+    </main>
+
+    <footer class="footer">
+      <ul class="nav__links footer__navbar__links">
+        <li><a href="#home" class="link">Home</a></li>
+        <li><a href="#about" class="link">About</a></li>
+        <li><a href="#services" class="link">Services</a></li>
+        <li><a href="#tours" class="link">Featured</a></li>
+        <li><a href="#gallery" class="link">Gallery</a></li>
+      </ul>
+      <ul class="footer__social__links">
+        <li>
+          <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+        </li>
+      </ul>
+
+      <p class="footer__paragraph">
+        Copyright &copy; Tours and Travels Company <span class="date"></span>.
+        All rights reversed
+      </p>
+    </footer>
+    <button class="btn--up"><i class="fa-solid fa-up-long"></i></button>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
